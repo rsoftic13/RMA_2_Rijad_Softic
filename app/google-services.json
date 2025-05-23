@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "509493264194",
+    "project_id": "pcshopapp-56ff4",
+    "storage_bucket": "pcshopapp-56ff4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509493264194:android:a9ef5c45709c07cd1412db",
+        "android_client_info": {
+          "package_name": "com.example.rma_2_rijad_softic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCADqQHmfOw8Ch63i2TSEPYUidBWEepNKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

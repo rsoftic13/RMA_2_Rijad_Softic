@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_racunari" android:title="Računari" />
+    <item android:id="@+id/menu_periferija" android:title="Periferija" />
+    <item android:id="@+id/menu_monitori" android:title="Monitori" />
+    <item android:id="@+id/menu_klime" android:title="Klime" />
+</menu>

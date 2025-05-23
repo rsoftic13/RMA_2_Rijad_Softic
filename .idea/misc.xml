@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/drawable/ic_home.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_base.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_category.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_category_items.xml" value="0.376453488372093" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_info.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_klima1.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_klima2.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_klime.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_korpa.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_kupovina.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_login.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_monitor1.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_monitor2.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_monitori.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_narudzbe.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_pc1.xml" value="0.1" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_pc2.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_periferija.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_periferija1.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_periferija2.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_profil.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_promjena_sifre.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_racunari.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_register.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_search.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/activity_splash.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/bottom_nav.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/item_artikal.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/item_search_result.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/layout/narudzba_idem.xml" value="0.11730072463768115" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/menu/bottom_nav_menu.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/User/Documents/AndroidStudioProjects/RMA_2_rijad_softic/app/src/main/res/menu/kategorije_dropdown_menu.xml" value="0.23981481481481481" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

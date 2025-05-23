@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moj profil"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/inputIme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ime"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/inputPrezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prezime"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/inputTelefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Broj telefona"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/inputAdresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresa"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/inputPostanskiBroj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poštanski broj"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/inputOpcina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Općina/Grad"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnSacuvaj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sačuvaj podatke"
+            android:layout_marginTop="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnPromjenaSifre"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Promjena šifre" />
+
+            <Button
+                android:id="@+id/btnNarudzbe"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Narudžbe" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
