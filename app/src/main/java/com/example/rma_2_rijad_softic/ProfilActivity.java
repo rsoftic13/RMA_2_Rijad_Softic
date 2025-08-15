@@ -8,30 +8,33 @@ import android.widget.Toast;
 
 import androidx.lifecycle.ViewModelProvider;
 
+import com.google.firebase.auth.FirebaseAuth; // Dodano
+
 public class ProfilActivity extends BaseActivity {
 
     private EditText imeInput, prezimeInput, telefonInput, adresaInput, postanskiBrojInput, opcinaInput;
-    private Button sacuvajBtn, promjenaSifreBtn, narudzbeBtn;
+    private Button sacuvajBtn, promjenaSifreBtn, narudzbeBtn, logoutBtn; // Dodano logoutBtn
     private ProfilViewModel viewModel;
 
     @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_profil);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_profil);
 
-            imeInput = findViewById(R.id.inputIme);
-            prezimeInput = findViewById(R.id.inputPrezime);
-            telefonInput = findViewById(R.id.inputTelefon);
-            adresaInput = findViewById(R.id.inputAdresa);
-            postanskiBrojInput = findViewById(R.id.inputPostanskiBroj);
-            opcinaInput = findViewById(R.id.inputOpcina);
-            sacuvajBtn = findViewById(R.id.btnSacuvaj);
-            promjenaSifreBtn = findViewById(R.id.btnPromjenaSifre);
-            narudzbeBtn = findViewById(R.id.btnNarudzbe);
+        imeInput = findViewById(R.id.inputIme);
+        prezimeInput = findViewById(R.id.inputPrezime);
+        telefonInput = findViewById(R.id.inputTelefon);
+        adresaInput = findViewById(R.id.inputAdresa);
+        postanskiBrojInput = findViewById(R.id.inputPostanskiBroj);
+        opcinaInput = findViewById(R.id.inputOpcina);
+        sacuvajBtn = findViewById(R.id.btnSacuvaj);
+        promjenaSifreBtn = findViewById(R.id.btnPromjenaSifre);
+        narudzbeBtn = findViewById(R.id.btnNarudzbe);
+        logoutBtn = findViewById(R.id.btnLogout); // NOVO
 
-            viewModel = new ViewModelProvider(this,
-                    ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication())
-            ).get(ProfilViewModel.class);
+        viewModel = new ViewModelProvider(this,
+                ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication())
+        ).get(ProfilViewModel.class);
 
         viewModel.getKorisnik().observe(this, korisnik -> {
             if (korisnik != null) {
@@ -64,5 +67,17 @@ public class ProfilActivity extends BaseActivity {
         narudzbeBtn.setOnClickListener(v ->
                 startActivity(new Intent(this, NarudzbeActivity.class))
         );
+
+        //Logout
+        logoutBtn.setOnClickListener(v -> {
+            FirebaseAuth.getInstance().signOut();
+            Toast.makeText(this, "Uspješno ste odjavljeni!", Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(this, LoginActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+
+            finish();
+        });
     }
 }
